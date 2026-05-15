@@ -13,5 +13,5 @@ RUN chmod +x scripts/docker-entrypoint.sh scripts/validate-env.sh
 
 EXPOSE 3000
 
-ENTRYPOINT ["./scripts/docker-entrypoint.sh"]
+ENTRYPOINT ["sh", "scripts/docker-entrypoint.sh"]
 CMD ["npm", "run", "dev"]

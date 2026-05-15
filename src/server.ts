@@ -1,5 +1,5 @@
 import http from 'http';
-import '../models';
+import './models';
 import { createApp } from './app';
 import { config } from './config';
 import { sequelize } from './database/sequelize';

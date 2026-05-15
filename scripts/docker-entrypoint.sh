@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-./scripts/validate-env.sh
+sh scripts/validate-env.sh
 
 POSTGRES_HOST="${POSTGRES_HOST:-postgres}"
 POSTGRES_PORT="${POSTGRES_PORT:-5432}"
